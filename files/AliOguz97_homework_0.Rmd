@@ -1,0 +1,32 @@
+---
+title: "Interesting Forecasting Applications with R"
+author: "Ali Oguz Bilgic - IE360 - Srping 2020"
+---
+```{r,echo=FALSE,results="hide"}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+```{r,echo=FALSE,eval=FALSE}
+rmarkdown::render("/home/baydogan/Courses/IE360/Guidelines/example_homework_0.Rmd",output_format="pdf_document")
+rmarkdown::render("/home/baydogan/Courses/IE360/Guidelines/example_homework_0.Rmd",output_format="html_document")
+```
+
+1. [The Complete Guide to Time Series Analysis and Forecasting](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775)
+
+    This example is important because it introduces the forecasting methodology using ARIMA and some other models in R. First explains concepts then prepare some projects.
+2.[Make Accurate Decisions With Social Media Analytics] (https://www.socialbakers.com/feature/social-media-analytics?utm_source=google&utm_medium=cpc&utm_term=%2Banalysis&utm_campaign=EMEA-Analytics-g-8078256676&utm_adgroup=analytics-83811394312&utm_adname=-396464879023&utm_content=&utm_topic=analytics&utm_product=analytics&campaignid=8078256676&adgroupid=83811394312&adid=396464879023&gclid=CjwKCAiA-vLyBRBWEiwAzOkGVOMCnDdWbMRL8gIiju9_xr_dpfoQiN5lRP0rXGzPBZKYJWdTvMrCrRoCHMkQAvD_BwE)
+    
+    This example shows a usage of time series analysis in popular culture. After being a member, you get analysis of your social moves and depending on them some advises to develop your online activities.
+
+3. [Time series analysis in medical area] (http://medicalstatistic.com/?gclid=CjwKCAiA-vLyBRBWEiwAzOkGVAUCQms_zzA3jyING_2Ofs-_zw5m5mqpmUt4nszqN7-n0fMl27sc5hoCBuUQAvD_BwE)
+    
+    This example is about time series analysis usage in medical area. They provide you required analysis and consult about future works.
+    
+4. [Time Series Packages for R] (https://robjhyndman.com/hyndsight/time-series-data-in-r/)
+
+    Useful document to learn some packages about time series for R
+
+5. [Time Series Modeling in R] (https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/)
+
+    Complete Tutorial for time series modeling in R
